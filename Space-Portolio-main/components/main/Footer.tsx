@@ -1,9 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import {
   RxDiscordLogo,
   RxGithubLogo,
   RxTwitterLogo,
-  RxLinkedinLogo,
 } from "react-icons/rx";
 
 import { FaYoutube } from "react-icons/fa";
@@ -35,7 +35,6 @@ const Footer = () => {
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <span className="text-[15px] ml-[6px]">@_chaudharyutkarsh_</span>    
             </p>
-           
           </div>
           
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
@@ -53,7 +52,7 @@ const Footer = () => {
         </div>
 
         <div className="mb-[20px] text-[15px] text-center">
-          &copy; Utkarsh's Portfolio all rights reserved
+          &copy; Utkarsh&apos;s Portfolio all rights reserved
         </div>
       </div>
     </div>
